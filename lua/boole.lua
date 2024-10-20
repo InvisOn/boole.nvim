@@ -322,6 +322,32 @@ M.generate(
         'PaleGreen',
     }
 )
+
+M.generate(
+    {
+        'A',
+        'B',
+        'C',
+        'D',
+        'E',
+        'F',
+        'G',
+        'H',
+        'I',
+        'J',
+        'K',
+        'L',
+        'M',
+        'N',
+        'O',
+        'P',
+        'Q',
+        'R',
+        'S',
+        'T',
+    }
+)
+
 --Check cursor word match the cword
 function check_postion_word(words,target_position,target_word)
     --In lua tab space is %s other is %S
